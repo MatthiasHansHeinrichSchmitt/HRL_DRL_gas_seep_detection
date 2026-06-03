@@ -1,3 +1,18 @@
+Metadata-Version: 2.4
+Name: HUGIN_gym
+Version: 0.1.0
+Summary: OpenAI Gym environment for the HUGIN AUV
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: gymnasium>=0.29.1
+Requires-Dist: meshcat>=0.3.2
+Requires-Dist: numpy>=2.1.3
+Requires-Dist: scipy>=1.14.1
+Requires-Dist: stable-baselines3[extra]>=2.3.2
+Requires-Dist: scikit-learn>=1.8.0
+Requires-Dist: onnx
+
 # HUGIN HRL Gymnasium Environment
 
 A Gymnasium environment for simulating and training reinforcement learning agents on the HUGIN AUV. This environment provides a simplified simulation of the HUGIN.
